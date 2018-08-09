@@ -12,7 +12,7 @@ app.get('/', function(req, res){
     res.render('dynamic')
 });
 
-app.get('/next?', function (req, res) {
+app.get('/auth/google', function (req, res) {
     res.send('Its alive!');
 });
 
